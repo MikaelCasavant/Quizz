@@ -43,9 +43,9 @@ export const cards: Card[] = [
   },
   {
     id: 'cartier-1535',
-    term: 'Jacques Cartier (1535)',
+    term: 'Jacques Cartier (1534–1542)',
     definition:
-      'Navigateur français qui remonte le Saint-Laurent et rencontre les habitants de Stadaconé, ouvrant la voie à la présence française.',
+      'Pilote de Saint-Malo envoyé par François Ier. En 1535, il remonte le Saint-Laurent jusqu’à Stadaconé et Hochelaga; trois voyages sans trouver la route de la Chine.',
     era: 'Fondation',
   },
   {
@@ -101,7 +101,7 @@ export const cards: Card[] = [
     id: 'cent-associes',
     term: 'Compagnie des Cent-Associés',
     definition:
-      'Fondée en 1627 sous Richelieu, elle reçoit le monopole des fourrures et doit installer 4 000 colons en 15 ans et évangéliser les Autochtones; elle échoue.',
+      'Fondée en 1627 sous Richelieu : monopole des fourrures, domaine de la Floride au pôle, obligation d’installer 4 000 colons catholiques en 15 ans.',
     era: 'Nouvelle-France',
   },
   {
@@ -262,7 +262,7 @@ export const cards: Card[] = [
     id: 'ursulines',
     term: 'Ursulines de Québec',
     definition:
-      'Arrivées en 1639 avec Marie de l’Incarnation; elles fondent un monastère et la première école pour filles de la colonie.',
+      'Arrivées en 1639 à l’instigation de Madame de La Peltrie, avec Marie de l’Incarnation; elles ouvrent les premières classes pour filles françaises et amérindiennes en Amérique du Nord.',
     era: 'Nouvelle-France',
   },
   {
@@ -276,7 +276,7 @@ export const cards: Card[] = [
     id: 'hotel-dieu',
     term: 'Hôtel-Dieu de Québec',
     definition:
-      'Fondé en 1639 par les Augustines hospitalières; premier hôpital permanent au nord du Mexique, encore sur son site historique.',
+      'Fondé en 1639 par trois Augustines de Dieppe sous le patronage de la duchesse d’Aiguillon; premier hôpital permanent au nord du Mexique.',
     era: 'Nouvelle-France',
   },
   {
@@ -684,5 +684,306 @@ export const cards: Card[] = [
     definition:
       'Première banque à charte francophone au Canada, fondée à Québec; elle occupe longtemps la rue Saint-Pierre.',
     era: 'Vieille Capitale',
+  },
+  {
+    id: 'marie-rollet',
+    term: 'Marie Rollet (1617)',
+    definition:
+      'Avec Louis Hébert et leurs enfants, première famille à s’établir et cultiver la terre en Nouvelle-France. Elle reste pendant l’occupation des Kirke (1629–1632).',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'helene-boulle',
+    term: 'Hélène Boullé (1620)',
+    definition:
+      'Épouse de Champlain, première femme de haut rang à Québec. Elle y séjourne de 1620 à 1624, puis retourne en France pour toujours.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'marguerite-langlois',
+    term: 'Marguerite Langlois Martin',
+    definition:
+      'Arrivée vers 1620, elle serait la première sage-femme de la Nouvelle-France et la mère des deux premiers enfants français nés dans la colonie.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'duchesse-aiguillon',
+    term: 'Duchesse d’Aiguillon',
+    definition:
+      'Bienfaitrice qui patronne l’arrivée en 1639 de trois Augustines de Dieppe fondatrices de l’Hôtel-Dieu de Québec.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'la-peltrie',
+    term: 'Madame de La Peltrie',
+    definition:
+      'Marie-Madeleine de Chauvigny de La Peltrie instigue la venue des Ursulines et accompagne Jeanne Mance à la fondation de Ville-Marie.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'jeanne-mance',
+    term: 'Jeanne Mance (1642)',
+    definition:
+      'Cofondatrice de Montréal à l’égal de Maisonneuve; elle fonde l’Hôtel-Dieu de Ville-Marie, soutenue par Angélique Faure de Bullion.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'manitouabeouich',
+    term: 'Marie Manitouabeouich',
+    definition:
+      'Première Algonquine à épouser un Français (Martin Prévost) en Nouvelle-France, en 1644; le couple aura neuf enfants.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'eleonore-grandmaison',
+    term: 'Éléonore de Grandmaison',
+    definition:
+      'Première seigneuresse de la Nouvelle-France (1649) et première femme d’origine européenne à habiter l’île d’Orléans.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'helene-desportes',
+    term: 'Hélène Desportes',
+    definition:
+      'Réputée première fille née en Nouvelle-France (~1620); sage-femme inscrite à Notre-Dame de Québec, mère de 15 enfants.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'marguerite-bourgeoys',
+    term: 'Marguerite Bourgeoys',
+    definition:
+      'Ouvre en 1658 la première école de Ville-Marie dans une étable et fonde la Congrégation de Notre-Dame, première communauté non cloîtrée.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'filles-du-roy',
+    term: 'Filles du Roy (1663–1673)',
+    definition:
+      'Près de 800 jeunes femmes envoyées par le roi pour peupler la colonie. Le terme apparaît chez Marguerite Bourgeoys en 1698.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'coutume-paris',
+    term: 'Coutume de Paris',
+    definition:
+      'Droit civil de la Nouvelle-France (1664) : communauté de biens gérée par le mari; la femme mariée est juridiquement inapte, sauf la marchande.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'ouvroir-providence',
+    term: 'Ouvroir de la Providence',
+    definition:
+      'Première école ménagère de la Nouvelle-France (1668), ouverte par Marguerite Bourgeoys à la Pointe Saint-Charles pour former les Filles du Roy.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'madeleine-vercheres',
+    term: 'Madeleine de Verchères',
+    definition:
+      'En 1692, âgée d’environ 14 ans, elle défend pendant huit jours le fort de Verchères contre des attaques iroquoises, avec deux soldats seulement.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'marie-morin',
+    term: 'Marie Morin',
+    definition:
+      'Supérieure de l’Hôtel-Dieu de Montréal; première femme écrivaine née en Nouvelle-France, auteure des Annales de l’Hôtel-Dieu (1697–1725).',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'anne-bourdon',
+    term: 'Anne Bourdon (Sainte-Agnès)',
+    definition:
+      'Première supérieure des Ursulines née à Québec; après l’incendie de 1686, elle reconstitue de mémoire 50 ans d’archives détruites.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'fecondite-nf',
+    term: 'Fécondité en Nouvelle-France',
+    definition:
+      'Entre 1700 et 1760, l’un des taux les plus élevés jamais observés : en moyenne 7,8 enfants par femme.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'agathe-saint-pere',
+    term: 'Agathe de Saint-Père',
+    definition:
+      'Ouvre la première manufacture d’étoffes (1705) et commercialise le sucre d’érable appris auprès des Autochtones.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'femmes-iroquoiennes',
+    term: 'Femmes iroquoiennes',
+    definition:
+      'Dans les sociétés matrilinéaires iroquoiennes, les Mères de clan nomment les sachems et détiennent l’autorité dans les maisons longues.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'youville',
+    term: 'Marguerite d’Youville',
+    definition:
+      'Fonde en 1737 les Sœurs de la Charité (Sœurs Grises), première communauté religieuse créée par une Canadienne; canonisée en 1990.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'elisabeth-begon',
+    term: 'Élisabeth Bégon',
+    definition:
+      'Première chroniqueuse sociopolitique de Montréal sous le Régime français; ses Lettres au cher fils (dès 1748) dépeignent la colonie sans complaisance.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'place-dyouville-nom',
+    term: 'Nom de la place D’Youville',
+    definition:
+      'La place D’Youville de Québec rappelle Marguerite d’Youville, fondatrice des Sœurs Grises et première sainte née au Canada.',
+    era: 'Vieille Capitale',
+  },
+  {
+    id: 'catherine-jeremie',
+    term: 'Catherine Jérémie-Aubuchon',
+    definition:
+      'Sage-femme et herboriste de Montréal; elle envoie en France des plantes annotées, faisant connaître la flore québécoise aux naturalistes.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'peche-terre-neuve',
+    term: 'Pêche à Terre-Neuve',
+    definition:
+      'Au XVIe siècle, plus de la moitié des navires à Terre-Neuve sont français. La pêche à la morue (mars–septembre) précède la colonisation.',
+    era: 'Fondation',
+  },
+  {
+    id: 'morue-seche',
+    term: 'Morue sèche',
+    definition:
+      'Technique où les pêcheurs débarquent et sèchent le poisson sur les côtes (« chaussées de pierre »), ce qui crée les premiers contacts avec les Autochtones.',
+    era: 'Fondation',
+  },
+  {
+    id: 'jean-cabot',
+    term: 'Jean Cabot (1497)',
+    definition:
+      'Navigateur vénitien au service de l’Angleterre; son voyage marque le début officiel des venues régulières européennes vers l’Amérique du Nord.',
+    era: 'Fondation',
+  },
+  {
+    id: 'verrazano',
+    term: 'Giovanni da Verrazano (1524)',
+    definition:
+      'Florentin financé par François Ier; il reconnaît les côtes orientales de l’Amérique du Nord sans trouver le passage vers l’Asie.',
+    era: 'Fondation',
+  },
+  {
+    id: 'tordesillas',
+    term: 'Bulle de Tordesillas',
+    definition:
+      'En 1533, le pape Clément VII la limite aux terres déjà connues, ouvrant la voie à François Ier et aux explorations françaises comme celles de Cartier.',
+    era: 'Fondation',
+  },
+  {
+    id: 'hochelaga',
+    term: 'Hochelaga',
+    definition:
+      'Bourgade iroquoienne visitée par Cartier en 1535 sur le site de Montréal; avec Stadaconé, elle révèle le potentiel d’une colonie de peuplement.',
+    era: 'Fondation',
+  },
+  {
+    id: 'tadoussac',
+    term: 'Tadoussac (1600)',
+    definition:
+      'Premier comptoir de traite durable fondé sous Henri IV, à l’embouchure du Saguenay; étape clé avant la fondation de Québec.',
+    era: 'Fondation',
+  },
+  {
+    id: 'henri-iv-canada',
+    term: 'Henri IV et le Canada',
+    definition:
+      'Après l’édit de Nantes et le traité de Vervins (1598), l’Espagne reconnaît une « ligne d’amitié » au nord du 40e parallèle, autorisant la France au Canada.',
+    era: 'Fondation',
+  },
+  {
+    id: 'richelieu-marine',
+    term: 'Richelieu et la marine',
+    definition:
+      'En 1626, Richelieu devient grand maître de la Navigation et du Commerce; il crée des compagnies à monopole et jette les bases du premier empire colonial français.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'naturels-francais',
+    term: 'Naturels français',
+    definition:
+      'Sous la Compagnie des Cent-Associés, les Autochtones baptisés peuvent obtenir le statut de « naturels français », égaux aux sujets du roi.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'compagnie-saint-sacrement',
+    term: 'Compagnie du Saint-Sacrement',
+    definition:
+      'Réseau de clercs et de laïcs (fondé en 1627) qui soutient les missions au Canada; Gaston de Renty en est un directeur influent.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'dauversiere',
+    term: 'Jérôme Le Royer de La Dauversière',
+    definition:
+      'Laïc formé à La Flèche; avec Jean-Jacques Olier, il lance la Société Notre-Dame de Montréal et le projet de Ville-Marie.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'olier',
+    term: 'Jean-Jacques Olier',
+    definition:
+      'Prêtre lié à La Dauversière; en 1642, il célèbre à Notre-Dame de Paris une messe consacrant l’île de Montréal à la Sainte Famille.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'societe-notre-dame',
+    term: 'Société Notre-Dame de Montréal',
+    definition:
+      'Société laïque d’évangélisation (~1641, ~35 membres) qui finance Ville-Marie : hôpital, écoles et peuplement sous Maisonneuve et Jeanne Mance.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'sillery',
+    term: 'Village de Sillery',
+    definition:
+      'Expérience jésuite (1638–1644) près de Québec pour sédentariser Algonquins et Innus; modèle qui inspire ensuite la fondation de Montréal.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'truchements',
+    term: 'Truchements',
+    definition:
+      'Interprètes et intermédiaires entre Français et Autochtones. Champlain envoie de jeunes Français hiverner chez les Algonquins ou Hurons pour apprendre les langues.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'relations-jesuites',
+    term: 'Relations des Jésuites',
+    definition:
+      'Récits annuels (notamment du père Paul Le Jeune) qui enthousiasment la France et soutiennent le financement des missions au Canada.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'nouvelle-jerusalem',
+    term: 'Nouvelle Jérusalem',
+    definition:
+      'Idéal des missionnaires (père Le Jeune) : bâtir en Nouvelle-France une Église pure, à l’image de l’Église primitive des Actes des Apôtres.',
+    era: 'Nouvelle-France',
+  },
+  {
+    id: 'champlain-mort',
+    term: 'Mort de Champlain',
+    definition:
+      'Samuel de Champlain meurt à Québec le 25 décembre 1635, après avoir fondé et administré la colonie depuis 1608.',
+    era: 'Fondation',
+  },
+  {
+    id: 'guerre-iroquoise',
+    term: 'Alliance franco-autochtone',
+    definition:
+      'De 1600 à 1700, la survie de la Nouvelle-France repose sur l’alliance avec les Autochtones; les autorités insistent pour « maintenir une bonne union ».',
+    era: 'Nouvelle-France',
   },
 ]
